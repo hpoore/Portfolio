@@ -32,7 +32,7 @@ const Header = () => {
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-          <p className="hero-cta" role="group">
+          <p className="hero-cta" role="group" data-toggle="collapse">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
                 {cta || 'About me'}
