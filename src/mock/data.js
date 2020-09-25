@@ -66,8 +66,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Email me!',
-  btn: '',
+  cta: '(425)-526-9291 | haydenpoore@gmail.com',
+  btn: 'Email Me',
   email: 'haydenpoore@gmail.com',
 };
 
