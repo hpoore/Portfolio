@@ -27,6 +27,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-width: 2px;
+  margin: 2px;
   border-style: solid;
   border-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   border-image-slice: 1;
@@ -57,6 +58,21 @@
 
     &::after {
       width: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    .btn-responsive {
+      padding:2px 4px;
+      font-size:80%;
+      line-height: 1;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+    .btn-responsive {
+      padding:4px 9px;
+      font-size:90%;
+      line-height: 1.2;
     }
   }
 }
