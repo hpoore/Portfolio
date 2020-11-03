@@ -1,0 +1,4 @@
+[submodule "Portfolio"]
+path = Portfolio
+
+url = git:https://github.com/cobidev/gatsby-simplefolio
