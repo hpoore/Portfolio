@@ -19,11 +19,12 @@ export const heroData = {
 export const aboutData = {
   img: 'headshot.jpg',
   paragraphOne:
-    'Current Senior at the University of Colorado Boulder receiving a Bachelor of Science in Information Science with a minor in Business Analytics in the Spring of 2021.',
+    'I’m a data-driven technology enthusiast with a passion for learning and creating new things. As a student of data science and business analytics I’m no stranger to creative problem solving and thinking outside the box.',
+
   paragraphTwo:
-    'Skilled at providing real world insights through data using computational tools. Use of Python to perform complex data analysis and visualization to help better understand the world around us through data.',
+    'I’ve been able to refine these skills working internationally in the Singaporean Venture Capital industry where I gained important cultural and business insights. My other experience in the entertainment analytics industry and startup world helped me understand how to successfully work with a team of incredibly talented people and accomplish goals and meet deadlines.',
   paragraphThree:
-    'Proven internship experience in the venture capital startup industry and entertainment analytics industry. ',
+    'As an upcoming graduate of the University of Colorado Boulder my goal is to step into the world of Product Management and take my data-driven and analytical background to come up with and develop innovative features that make a difference to the core metrics of your company.',
   resume:
     'https://docs.google.com/document/d/1PAc2HlQCqWMHTBItoLxFvaQINxwO0iCiILRnxkIqWus/edit?usp=sharing', // if no resume, the button will not show up
 };
@@ -32,13 +33,23 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'smartbrain.png',
+    title: 'SmartBrain Facial Recognition Application',
+    info:
+      'Full stack Facial Recognition Web Application built using React and Node.js. Deployed front-end and back-end on Heroku. Used bcrypt to hash passwords and store them in a PostreSQL database. Back-end database allows for secure registration and counts number of entries per user. Give it a try! User: test@gmail.com Pass: 123',
+    info2: '',
+    url: 'https://smart-brain-456.herokuapp.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'covid.png',
     title: 'COVID-19 Tracker',
     info:
       'COVID-19 Cases, Recoveries, and Deaths tracker built using React and deployed to Netlify.',
     info2: '',
     url: 'https://covid-19-tracker324259.netlify.app/',
-    repo: 'https://covid-19-tracker324259.netlify.app/', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -60,7 +71,7 @@ export const projectsData = [
       'Application that searches for users on Github and returns their most recent repositories and profile data.',
     info2: '',
     url: 'https://githubfinder83325.netlify.app/',
-    repo: 'https://githubfinder83325.netlify.app/', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -72,32 +83,9 @@ export const contactData = {
 };
 
 // FOOTER DATA
-export const footerData = {
-  networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '',
-    },
-  ],
-};
+export const footerData = {};
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
