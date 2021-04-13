@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Hayden Poore | Data Scientist', // e.g: 'Name | Developer'
+  title: 'Hayden Poore', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Hayden Poore',
-  subtitle: 'Data Scientist | Product Manager',
+  subtitle: ' Product Manager | Data Scientist',
   cta: '',
 };
 
@@ -25,8 +25,7 @@ export const aboutData = {
     'I’ve been able to refine these skills working internationally in the Singaporean Venture Capital industry where I gained important cultural and business insights. My other experience in the entertainment analytics industry and startup world helped me understand how to successfully work with a team of incredibly talented people and accomplish goals and meet deadlines.',
   paragraphThree:
     'As an upcoming graduate of the University of Colorado Boulder my goal is to step into the world of Product Management and take my data-driven and analytical background to come up with and develop innovative features that make a difference to the core metrics of your company.',
-  resume:
-    'https://docs.google.com/document/d/1PAc2HlQCqWMHTBItoLxFvaQINxwO0iCiILRnxkIqWus/edit?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/17dp0I92CqNbiJsxtTUoOWI9Y8uHVfDWg/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

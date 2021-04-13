@@ -28,7 +28,7 @@ const Header = () => {
           <h1 className="hero-title">
             {title || ' '} <span className="text-color-main">{name || 'Your Name'}</span>
             <br />
-            {subtitle || 'Data Scientist | Product Manager'}
+            {subtitle || 'Product Manager | Data Scientist'}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
@@ -44,31 +44,9 @@ const Header = () => {
               </Link>
             </span>
             <span className="cta-btn cta-btn--hero">
-              <a
-                href="https://www.linkedin.com/in/hayden-poore/"
-                smooth
-                duration={1000}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {cta || 'LinkedIn'}
+              <a href="https://www.linkedin.com/in/hayden-poore/" target="_blank" rel="noreferrer">
+                LinkedIn
               </a>
-            </span>
-            <span className="cta-btn cta-btn--hero">
-              <a
-                href="https://medium.com/@haydenpoore"
-                smooth
-                duration={1000}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {cta || 'Blog'}
-              </a>
-            </span>
-            <span className="cta-btn cta-btn--hero">
-              <Link to="contact" smooth duration={1000} target="_blank" rel="noreferrer">
-                {cta || 'Contact'}
-              </Link>
             </span>
           </p>
         </Fade>
